@@ -25,7 +25,7 @@ Fill in the code for the function incrementer so it returns the value of the glo
 
 
 
-*/
+*/ 
 
 
 // the global variable

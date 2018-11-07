@@ -40,3 +40,4 @@ function incrementer (add = 1) {
 
 var newValue = incrementer(); // Should equal 5
 console.log(fixedValue); // Should print 4
+ 

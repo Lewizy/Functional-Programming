@@ -132,15 +132,13 @@ let averageRating = filtered / NolanLength;
 console.log(averageRating); 
 
 
-//ADVANCE SOLUTION
-let averageRating = watchList.filter(function(item){  
-  return item.Director == "Christopher Nolan";
-}).map(function(item){
-  return parseFloat(item.imdbRating)
-}).reduce((a,b) => a+b) / watchList.filter( x => x.Director == "Christopher Nolan" ).length
+//ADVANCED SOLUTION
+let averageRating2 = watchList.filter((item) => item.Director == "Christopher Nolan")
+.map((item) => parseFloat(item.imdbRating))
+.reduce((a,b) => a+b) / watchList.filter((item) => item.Director == "Christopher Nolan" ).length
 // Add your code above this line
 
-console.log(averageRating); 
+console.log(averageRating2);  
 
 
 

@@ -4,7 +4,7 @@ var globalTitle = "   Winter Is   Coming  2  ";
 function urlSlug(title) {
   
   return title.toLowerCase().trim().split(/\s+/).filter((x) => x !== "").join("-");
-  //filter shoudl always be in between split and join
+  //filter should always be in between split and join
   
   //return title.toLowerCase().trim().split(/\s+/).join('-');
 
